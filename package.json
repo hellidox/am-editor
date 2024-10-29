@@ -1,0 +1,28 @@
+{
+  "name": "am-configurator",
+  "version": "0.0.1",
+  "description": "Configurer for the mod that I haven't named yet",
+  "main": "main.js",
+  "private": true,
+  "keywords": [
+    ""
+  ],
+  "license": "GPL-2.1-only",
+  "author": "",
+  "scripts": {
+    "start": "electron .",
+    "app:dist": "electron-builder"
+  },
+  "build": {
+    "appId": "locker.fart.am-editor",
+    "productName": "AM Editor",
+    "copyright": "GPL-2.1 only 2024 (c) andrea",
+    "directories": {
+      "output": "build"
+    }
+  },
+  "devDependencies": {
+    "electron": "^33.0.2",
+    "electron-builder": "^24.6.3"
+  }
+}
