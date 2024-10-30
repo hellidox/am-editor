@@ -278,7 +278,7 @@ function generateConfig() {
   }
   console.log(commentLines);
   console.log(config.join('\n'));
-  return config.join('\n');
+  return config.join('\r\n');
 
 }
 
