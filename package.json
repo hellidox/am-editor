@@ -15,7 +15,7 @@
   },
   "build": {
     "appId": "locker.fart.am-editor",
-    "productName": "AM Editor",
+    "productName": "Input Configurator",
     "copyright": "GPL-2.1 only 2024 (c) andrea",
     "directories": {
       "output": "build"
